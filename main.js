@@ -97,7 +97,7 @@ window.addEventListener('load', () => {
                 task_input_el.style.color = 'gray';
             } else {
                 task_input_el.style.textDecoration = 'none';
-                task_input_el.style.color = ''; // Reset to the default color
+                task_input_el.style.color = '';
             }
 
             saveTasksToLocalStorage();
